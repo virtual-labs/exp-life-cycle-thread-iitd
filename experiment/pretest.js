@@ -94,8 +94,8 @@
       question: "Q2. When a class extends the Thread class, it should override……….method of Thread class to start that thread.",
       answers: {
         a: " start()",
-        b: "run()"
-        c: "init()"
+        b: "run()",
+        c: "init()",
         d: "go()"
       },
       correctAnswer: "b"
@@ -127,8 +127,8 @@
       question: "Q5. Which of the following will not directly cause a thread to stop?",
       answers: {
         a: "notify()",
-        b: " wait()"
-        c: " InputStream access"
+        b: " wait()",
+        c: " InputStream access",
         d: " sleep()"
       },
       correctAnswer: "a"
