@@ -124,13 +124,13 @@
     },
 	
 	{
-      question: "Q5. Number of threads in below java program is",
+      question: "Q5. How many threads can a process contain?",
       
       answers: {
-        a: "0",
-        b: "1",
-        c: "2",
-        d: "3"
+        a: "1",
+        b: "2",
+        c: "Multiple",
+        d: "None"
       },
       correctAnswer: "c"
     },
