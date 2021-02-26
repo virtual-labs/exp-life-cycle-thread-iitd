@@ -105,8 +105,8 @@
       question: "Q3. What is maximum thread priority in Java",
       answers: {
         a: "10",
-        b: "12"
-        c: "5"        
+        b: "12",
+        c: "5",      
         d: "8"
       },
       correctAnswer: "a"
@@ -116,8 +116,8 @@
       question: "Q4. Which method is used to make main thread to wait for all child threads",
       answers: {
         a: " Join ()",
-        b: " Sleep ()"
-        c: " Wait ()"        
+        b: " Sleep ()",
+        c: " Wait ()",        
         d: " Stop ()"
       },
       correctAnswer: "a"
@@ -129,7 +129,7 @@
       answers: {
         a: "0",
         b: "1",
-        c: "2"
+        c: "2",
         d: "3"
       },
       correctAnswer: "c"
