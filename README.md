@@ -1,20 +1,19 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Computer Science Engineering
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
-
+<b> Lab | <b> Basics of Java Programming
+<b> Experiment|     <b> 10. Understanding Life cycle of a Thread
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+The aim of the experiment is to demonstrate concept of threads in java programming using proper syntax.
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Prof. Ranjan Bose 
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b>  IIT Delhi
+<b> Email id|     <b>  rbose.iitd@gmail.com
+<b> Department |  Electrical Engineering
 
 ### Contributors List
 
