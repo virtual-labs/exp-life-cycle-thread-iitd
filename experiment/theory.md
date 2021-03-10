@@ -1,7 +1,7 @@
 ### Thread
 
 How to create thread
-There are two ways to create a thread:
+There are two ways to create a thread :
 -	By extending Thread class.
 -	By implementing Runnable interface.
 	
