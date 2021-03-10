@@ -122,7 +122,7 @@ Thread(Runnable threadObj, String threadName);
 Where, threadObj is an instance of a class that implements the Runnable interface and threadName is the name given to the new thread.
 
 ### Step 3
-Once a Thread object is created, you can start it by calling start() method, which executes a call to run( ) method. Following is a simple syntax of start() method −
+Once a Thread object is created, you can start it by calling start() method, which executes a call to run( ) method. Following is a simple syntax of **start() method**−
 
 ```sh
 void start();
