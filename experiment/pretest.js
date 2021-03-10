@@ -80,10 +80,10 @@
 
   const myQuestions = [
     {
-      question: "Q1. In java a thread can be created by…………..",
+      question: "Q1. In java a thread can be created by_____.",
       answers: {
-        a: "Extending the thread class.",
-        b: "Implementing Runnable interface.",
+        a: "Extending the thread class",
+        b: "Implementing Runnable interface",
         c: "Both of the above",
         d: "None of these"
       },
@@ -91,7 +91,7 @@
     },
 
     {
-      question: "Q2. When a class extends the Thread class, it should override……….method of Thread class to start that thread.",
+      question: "Q2. When a class extends the Thread class, it should override _____ method of Thread class to start that thread.",
       answers: {
         a: " start()",
         b: "run()",
