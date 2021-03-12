@@ -1,4 +1,4 @@
-#### These procedure steps will be followed on the simulator
+### These procedure steps will be followed on the simulator
 
 - The experiment begins with previewing different components of java programs in Simulator section of preview tab.
 

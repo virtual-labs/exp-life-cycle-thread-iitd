@@ -1,34 +1,39 @@
-## Thread
+### Thread
+
 How to create thread
-There are two ways to create a thread:
-1.	By extending Thread class
-2.	By implementing Runnable interface.
-#### Thread class
+There are two ways to create a thread :
+-	By extending Thread class.
+-	By implementing Runnable interface.
+	
+### Thread class
+
 Thread class provide constructors and methods to create and perform operations on a thread.
 Thread class extends Object class and implements Runnable interface.
-#### Runnable interface
-The Runnable interface should be implemented by any class whose instances are intended to
-be executed by a thread. Runnable interface have only one method named run().
-1.	public void run(): is used to perform action for a thread.
-#### Create a Thread by Extending a Thread Class
 
-#### Step 1
-You will need to override run( ) method available in Thread class. This method provides an entry point
-for the thread and you will put your complete business logic inside this method. 
-Following is a simple syntax of run() method –
+### Runnable interface
+
+The Runnable interface should be implemented by any class whose instances are intended to be executed by a thread. Runnable interface have only one method named run().
+public void run(): is used to perform action for a thread.
+
+### Create a Thread by Extending a Thread Class
+
+### Step 1
+
+You will need to override run( ) method available in Thread class. This method provides an entry point for the thread and you will put your complete business logic inside this method. 
+Following is a simple syntax of **run() method** –
 
 ```sh
 public void run( )
 ```
 
-#### Step 2
+### Step 2
+
 Once Thread object is created, you can start it by calling **start()** method, which executes a call to
-run( ) method. Following is a simple syntax of start() method −
+run( ) method. Following is a simple syntax of **start() method** −
 
 ```sh
 void start( );
 ```
-
 Example Here is the preceding program rewritten to extend the Thread
 
 ```sh
@@ -77,7 +82,7 @@ T2.start();
 
 ```
 
-#### OUTPUT
+### OUTPUT
 
 ```sh
 Creating Thread-1
@@ -99,30 +104,31 @@ Thread Thread-2 exiting.
 
 ```
 
-#### Create a Thread by Implementing a Runnable Interface
-#### Step 1
-you need to implement a run() method provided by a Runnable interface. This method provides an entry point for the thread and you will put your complete logic inside this method. Following is a simple syntax of the run() method −
+### Create a Thread by Implementing a Runnable Interface
+
+### Step 1
+you need to implement a run() method provided by a Runnable interface. This method provides an entry point for the thread and you will put your complete logic inside this method. Following is a simple syntax of the **run() method** −
 
 ```sh
 public void run( )
 ```
 
-#### Step 2
+### Step 2
 you will instantiate a Thread object using the following constructor –
 
 ```sh
 Thread(Runnable threadObj, String threadName);
 ```
-
 Where, threadObj is an instance of a class that implements the Runnable interface and threadName is the name given to the new thread.
-#### Step 3
-Once a Thread object is created, you can start it by calling start() method, which executes a call to run( ) method. Following is a simple syntax of start() method −
+
+### Step 3
+Once a Thread object is created, you can start it by calling start() method, which executes a call to run( ) method. Following is a simple syntax of **start() method**−
 
 ```sh
 void start();
 ```
 
-#### Example:
+### Example:
 Here is an example that creates a new thread and starts running it −
 
 ```sh
@@ -140,7 +146,7 @@ Here is an example that creates a new thread and starts running it −
 
 ```
 
-#### OUTPUT
+### OUTPUT
 
 ```sh
 Output:thread is running...

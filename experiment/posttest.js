@@ -91,7 +91,7 @@
     },
 
     {
-      question: "Q2. Which of the following line of code is suitable to start a thread ?",
+      question: "Q2. Which of the following line of code is suitable to start a thread?",
       answers: {
         a: " Thread t = new Thread(X);",
         b: "Thread t = new Thread(X); t.start();",
@@ -102,7 +102,7 @@
     },
 
     {
-      question: "Q3. What is maximum thread priority in Java",
+      question: "Q3. What is maximum thread priority in Java?",
       answers: {
         a: "10",
         b: "12",
@@ -113,7 +113,7 @@
     },
 	
 	{
-      question: "Q4. Which method is used to make main thread to wait for all child threads",
+      question: "Q4. Which method is used to make main thread to wait for all child threads?",
       answers: {
         a: " Join ()",
         b: " Sleep ()",
