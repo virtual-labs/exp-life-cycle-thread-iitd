@@ -1,1 +1,46 @@
-[{"question":"Q1. In java a thread can be created by_____.","answers":{"a":"Extending the thread class","b":"Implementing Runnable interface","c":"Both of the above","d":"None of these"},"correctAnswer":"c"},{"question":"Q2. When a class extends the Thread class, it should override _____ method of Thread class to start that thread.","answers":{"a":" start()","b":"run()","c":"init()","d":"go()"},"correctAnswer":"b"},{"question":"Q3.  Which two of the following methods are defined in class Thread?","answers":{"a":" start()","b":"wait()","c":"notify()","d":"run()"},"correctAnswer":"b"},{"question":"Q4. Which will contain the body of the thread?","answers":{"a":" start()","b":"run()","c":"stop()","d":" main()"},"correctAnswer":"b"},{"question":"Q5. Which of the following will not directly cause a thread to stop?","answers":{"a":"notify()","b":" wait()","c":" InputStream access","d":" sleep()"},"correctAnswer":"a"}]
+[{
+	"question": "Q1. In java a thread can be created by_____.",
+	"answers": {
+		"a": "Extending the thread class",
+		"b": "Implementing Runnable interface",
+		"c": "Both of the above",
+		"d": "None of these"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "Q2. When a class extends the Thread class, it should override _____ method of Thread class to start that thread.",
+	"answers": {
+		"a": " start()",
+		"b": "run()",
+		"c": "init()",
+		"d": "go()"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q3.  Which two of the following methods are defined in class Thread?",
+	"answers": {
+		"a": " start()",
+		"b": "wait()",
+		"c": "notify()",
+		"d": "run()"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q4. Which will contain the body of the thread?",
+	"answers": {
+		"a": " start()",
+		"b": "run()",
+		"c": "stop()",
+		"d": " main()"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "Q5. Which of the following will not directly cause a thread to stop?",
+	"answers": {
+		"a": "notify()",
+		"b": " wait()",
+		"c": " InputStream access",
+		"d": " sleep()"
+	},
+	"correctAnswer": "a"
+}]
