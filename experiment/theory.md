@@ -42,7 +42,7 @@ void start( );
 Example Here is the preceding program rewritten to extend the Thread
 
 ```
-classThreadDemoextendsThread{
+class ThreadDemo extends Thread{
 privateThread t;
 privateStringthreadName;
 
@@ -51,7 +51,7 @@ threadName= name;
 System.out.println("Creating "+threadName);
 }
 
-publicvoid run(){
+public void run(){
 System.out.println("Running "+threadName);
 try{
 for(int i =4; i >0; i--){
@@ -65,7 +65,7 @@ System.out.println("Thread "+threadName+" interrupted.");
 System.out.println("Thread "+threadName+" exiting.");
 }
 
-publicvoid start (){
+public void start (){
 System.out.println("Starting "+threadName);
 if(t ==null){
          t =newThread(this,threadName);
@@ -74,7 +74,7 @@ t.start();
 }
 }
 
-publicclassTestThread{
+public class TestThread{
 
 publicstaticvoid main(Stringargs[]){
 ThreadDemo T1 =newThreadDemo("Thread-1");
