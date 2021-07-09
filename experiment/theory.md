@@ -39,7 +39,7 @@ run( ) method. Following is a simple syntax of **start() method** −
 void start( );
 ```
 #### Example:
-Example Here is the preceding program rewritten to extend the Thread
+
 
 ```
 class ThreadDemo extends Thread{
