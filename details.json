@@ -1,0 +1,46 @@
+{
+
+   "details": [
+       {
+"Experiment": " Understanding Life cycle of a Thread",    
+"Lab": " Core Java Programming ",              
+"Discipline": " Computer Science and Engineering ",
+"Technology": " HTML, Javascript, JQuery "        
+       }
+   ],
+
+   "developer": [
+       {      
+      "Developer": "Prof. Ranjan Bose ",        
+      "Institute": "Indian Institute of Technology Delhi ",        
+      "InstituteAcronym": "IITD "  
+       }
+   ],
+
+   "contributer": [
+       {      
+"Contributer": "",            
+      "Institute": "",              
+"InstituteAcronym": ""        
+       },
+
+       {      
+"Contributer": "",              
+      "Institute": "",              
+"InstituteAcronym": ""        
+       },
+
+       {      
+"Contributer": "",            
+      "Institute": "",              
+"InstituteAcronym": ""        
+       },
+
+       {      
+"Contributer": "",              
+      "Institute": "",              
+"InstituteAcronym": ""        
+       }
+   ]
+
+}
