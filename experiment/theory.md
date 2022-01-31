@@ -1,9 +1,13 @@
 ### Thread
+- Threads allows a program to operate more efficiently by doing multiple things at the same time.
+- Threads can be used to perform complicated tasks in the background without interrupting the main program.
 
-How to create thread
+---
+
+### How to create thread
 There are two ways to create a thread :
--	By extending Thread class.
--	By implementing Runnable interface.
+- By extending Thread class.
+- By implementing Runnable interface.
 	
 ### Thread class
 
@@ -15,29 +19,30 @@ Thread class extends Object class and implements Runnable interface.
 The Runnable interface should be implemented by any class whose instances are intended to be executed by a thread. Runnable interface have only one method named run().
 public void run(): is used to perform action for a thread.
 
-### Create a Thread by Extending a Thread Class
+### 1. Create a Thread by Extending a Thread Class
 
-### Step 1
+#### Step 1
 
 You will need to override run( ) method available in Thread class. This method provides an entry point for the thread and you will put your complete business logic inside this method. 
 Following is a simple syntax of **run() method** –
 
-```sh
+```
 public void run( )
 ```
 
-### Step 2
+#### Step 2
 
 Once Thread object is created, you can start it by calling **start()** method, which executes a call to
 run( ) method. Following is a simple syntax of **start() method** −
 
-```sh
+```
 void start( );
 ```
-Example Here is the preceding program rewritten to extend the Thread
+#### Example:
 
-```sh
-classThreadDemoextendsThread{
+
+```
+class ThreadDemo extends Thread{
 privateThread t;
 privateStringthreadName;
 
@@ -46,7 +51,7 @@ threadName= name;
 System.out.println("Creating "+threadName);
 }
 
-publicvoid run(){
+public void run(){
 System.out.println("Running "+threadName);
 try{
 for(int i =4; i >0; i--){
@@ -60,7 +65,7 @@ System.out.println("Thread "+threadName+" interrupted.");
 System.out.println("Thread "+threadName+" exiting.");
 }
 
-publicvoid start (){
+public void start (){
 System.out.println("Starting "+threadName);
 if(t ==null){
          t =newThread(this,threadName);
@@ -69,7 +74,7 @@ t.start();
 }
 }
 
-publicclassTestThread{
+public class TestThread{
 
 publicstaticvoid main(Stringargs[]){
 ThreadDemo T1 =newThreadDemo("Thread-1");
@@ -82,9 +87,9 @@ T2.start();
 
 ```
 
-### OUTPUT
+#### OUTPUT
 
-```sh
+```
 Creating Thread-1
 Starting Thread-1
 Creating Thread-2
@@ -104,34 +109,34 @@ Thread Thread-2 exiting.
 
 ```
 
-### Create a Thread by Implementing a Runnable Interface
+### 2. Create a Thread by Implementing a Runnable Interface
 
-### Step 1
+#### Step 1
 you need to implement a run() method provided by a Runnable interface. This method provides an entry point for the thread and you will put your complete logic inside this method. Following is a simple syntax of the **run() method** −
 
-```sh
+```
 public void run( )
 ```
 
-### Step 2
+#### Step 2
 you will instantiate a Thread object using the following constructor –
 
-```sh
+```
 Thread(Runnable threadObj, String threadName);
 ```
 Where, threadObj is an instance of a class that implements the Runnable interface and threadName is the name given to the new thread.
 
-### Step 3
+#### Step 3
 Once a Thread object is created, you can start it by calling start() method, which executes a call to run( ) method. Following is a simple syntax of **start() method**−
 
-```sh
+```
 void start();
 ```
 
-### Example:
+#### Example:
 Here is an example that creates a new thread and starts running it −
 
-```sh
+```
 	class Multi3 implements Runnable{  
 	public void run(){  
 	System.out.println("thread is running...");  
@@ -146,8 +151,10 @@ Here is an example that creates a new thread and starts running it −
 
 ```
 
-### OUTPUT
+#### OUTPUT
 
-```sh
+```
 Output:thread is running...
 ```
+### Differences between "extending" and "implementing" Threads
+The major difference is that when a class extends the Thread class, you cannot extend any other class, but by implementing the Runnable interface, it is possible to extend from another class as well.
