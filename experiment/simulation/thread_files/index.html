@@ -103,11 +103,11 @@ function FunctionBack1(){
 }
 
 function createclass(){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>class <input type='text' id='cname' style='width:120px;height:24px;'> extends Thread{<br>public void run( ){<br><br>}<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click1' >Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>class <input type='text' id='cname' style='width:120px;height:24px;'> extends Thread{<br>// Create any user defined class and make that one as a derived class of thread class.<br><br>public void run( ){<br><br>}<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click1' >Next</button></div>";
 }
 
 function runmethod(cname){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>class <span id='cname'>"+cname+"</span> extends Thread{<br>public void run( ){<br>System.out.println ('<input type='text' id='msg' style='width:120px;height:24px;'>') ;<br>}<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click2' >Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>class <span id='cname'>"+cname+"</span> extends Thread{<br>public void run( ){<br>// Override run() method of Thread class.<br>System.out.println ('<input type='text' id='msg' style='width:120px;height:24px;'>') ;<br>}<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click2' >Next</button></div>";
 }
 
 function runmethodmsg(cname,msg){
@@ -115,11 +115,11 @@ function runmethodmsg(cname,msg){
 }
 
 function printmsg(cname,msg){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>class <span id='cname'>"+cname+"</span> extends Thread{<br>public void run( ){<br>System.out.println ('<span id='msg'>"+msg+"</span>') ;<br>}<br>public static void main(String args[])<br>{<br><span>"+cname+"</span> <input type='text' id='obj' style='width:60px;height:24px;'> = new <span>"+cname+"</span> ( ) ;<br>}<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click4' >Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>class <span id='cname'>"+cname+"</span> extends Thread{<br>public void run( ){<br>System.out.println ('<span id='msg'>"+msg+"</span>') ;<br>}<br>public static void main(String args[])<br>{<br>// Create an object for user-defined thread class.<br><span>"+cname+"</span> <input type='text' id='obj' style='width:60px;height:24px;'> = new <span>"+cname+"</span> ( ) ;<br>}<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click4' >Next</button></div>";
 }
 
 function callmethod(cname,msg,obj){
-  document.getElementById("area").innerHTML = "<p style='font-size:16px'>class <span id='cname'>"+cname+"</span> extends Thread{<br>public void run( ){<br>System.out.println ('<span id='msg'>"+msg+"</span>') ;<br>}<br>public static void main(String args[])<br>{<br><span>"+cname+"</span> <span id='obj'>"+obj+"</span> = new <span>"+cname+"</span> ( ) ;<br><span>"+obj+"</span>.start( ) ;<br>}<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click5' >Next</button></div>";
+  document.getElementById("area").innerHTML = "<p style='font-size:16px'>class <span id='cname'>"+cname+"</span> extends Thread{<br>public void run( ){<br>System.out.println ('<span id='msg'>"+msg+"</span>') ;<br>}<br>public static void main(String args[])<br>{<br><span>"+cname+"</span> <span id='obj'>"+obj+"</span> = new <span>"+cname+"</span> ( ) ;<br>// Call start() method of thread class to execute run() method.<br><span>"+obj+"</span>.start( ) ;<br>}<br>}</p>&nbsp;<div style='margin-left:30%'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn btn-primary' id='click5' >Next</button></div>";
 }
 
 function execute(msg){
